@@ -50,7 +50,7 @@ This project includes a multi-stage Dockerfile.
 To build the image:
 
 ```
-docker build . --tag react-starter-client:1.0
+docker build . --tag react-starter:1.0
 ```
 
 Alternatively, build and run:
