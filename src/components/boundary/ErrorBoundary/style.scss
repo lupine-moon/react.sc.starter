@@ -16,13 +16,14 @@
 		text-align: center;
 		padding: 0px;
 		background-color: $color-white;
-		margin: 40px;
+		margin: 20px;
 	}
 
 	.Error__Message {
 		color: $secondary-color;
 		font-size: 20px;
 		font-weight: 700;
+		line-height: 1.5em;
 	}
 
 	.Error__Detail {

@@ -14,5 +14,14 @@
 	"tslint.autoFixOnSave": false,
 	"typescript.format.enable": true,
 	"typescript.validate.enable": true,
-	"window.zoomLevel": 0
+	"window.zoomLevel": 0,
+	"workbench.colorCustomizations": {
+		"titleBar.activeBackground": "#dbbc4c",
+		"titleBar.inactiveBackground": "#dbbc4c99",
+		"titleBar.activeForeground": "#15202b",
+		"titleBar.inactiveForeground": "#15202b99",
+		"statusBar.background": "#dbbc4c",
+		"statusBarItem.hoverBackground": "#ccaf46",
+		"statusBar.foreground": "#15202b"
+	}
 }

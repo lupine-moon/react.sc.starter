@@ -1,3 +1,5 @@
+import 'typeface-lato';
+
 import { configure } from 'mobx';
 import { observer, Provider } from 'mobx-react';
 import * as React from 'react';
