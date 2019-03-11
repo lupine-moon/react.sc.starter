@@ -1,9 +1,10 @@
-// import { Button } from 'antd';
 import { inject, observer } from 'mobx-react';
 import * as React from 'react';
 
+import Button from '@bit/lupine-moon.interaction.button';
+
 import Logo from '@components/icon/Logo';
-// import { RouteNames } from '@enums/RouteNames';
+import { RouteNames } from '@enums/RouteNames';
 import { RouterStore } from '@store/RouterStore';
 
 import './style.less';
@@ -34,14 +35,14 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, State> {
 		});
 	}
 
-	// private onHomeClick = () => {
-	// 	if (this.props.routerStore) {
-	// 		this.props.routerStore.navigate(
-	// 			{ name: RouteNames.HOME },
-	// 			{ force: true, reload: true, replace: true }
-	// 		);
-	// 	}
-	// };
+	private onHomeClick = () => {
+		if (this.props.routerStore) {
+			this.props.routerStore.navigate(
+				{ name: RouteNames.HOME },
+				{ force: true, reload: true, replace: true }
+			);
+		}
+	};
 
 	public render() {
 		if (this.state.hasError) {
@@ -58,9 +59,9 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, State> {
 							We have logged the issue and have already started working on a solution!
 						</h2>
 						<br />
-						{/* <Button type="primary" className="CTA__Button" onClick={this.onHomeClick}>
+						<Button className="CTA__Button" onClick={this.onHomeClick}>
 							Take me home
-						</Button> */}
+						</Button>
 					</section>
 				</section>
 			);
