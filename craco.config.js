@@ -19,8 +19,7 @@ module.exports = {
 				'^@pages(.*)$': '<rootDir>/src/pages$1',
 				'^@router(.*)$': '<rootDir>/src/router$1',
 				'^@store(.*)$': '<rootDir>/src/store$1',
-				'^@theme(.*)$': '<rootDir>/src/theme$1',
-				'^@themes(.*)$': '<rootDir>/src/theme/styles/default$1',
+				'^@styles(.*)$': '<rootDir>/src/styles$1',
 				'^@utils(.*)$': '<rootDir>/src/utils$1'
 			}
 		}
@@ -76,8 +75,7 @@ module.exports = {
 			'@pages': path.resolve(__dirname, 'src/pages'),
 			'@router': path.resolve(__dirname, 'src/router'),
 			'@store': path.resolve(__dirname, 'src/store'),
-			'@theme': path.resolve(__dirname, 'src/theme'),
-			'@themes': path.resolve(__dirname, `src/theme/styles/default`),
+			'@styles': path.resolve(__dirname, 'src/styles'),
 			'@utils': path.resolve(__dirname, 'src/utils/')
 		},
 		plugins: [

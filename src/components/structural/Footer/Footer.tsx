@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import './style.less';
+import './style.scss';
 
 const Footer = () => (
 	<footer className="Footer">

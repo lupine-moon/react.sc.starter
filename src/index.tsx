@@ -7,6 +7,9 @@ import ErrorBoundary from '@components/boundary/ErrorBoundary';
 import { RouteNames } from '@enums/RouteNames';
 import { RootStore } from '@store/RootStore';
 
+// Apply styles
+import '@styles/index.scss';
+
 // MobX: Enforce strict mode
 configure({ enforceActions: 'observed' });
 

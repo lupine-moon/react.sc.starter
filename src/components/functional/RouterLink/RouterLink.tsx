@@ -3,7 +3,7 @@ import * as React from 'react';
 
 import { RouterStore } from '@store/RouterStore';
 
-import './style.less';
+import './style.scss';
 
 export interface RouterLinkProps {
 	children?: React.ReactNode;

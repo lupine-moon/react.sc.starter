@@ -1,9 +1,9 @@
-@import '~@themes/app-theme.less';
+@import '@styles/colors.scss';
 
 .Footer {
 	width: 100%;
 	padding-bottom: 20px;
-	background-color: @footer-background;
+	background-color: $footer-background;
 	position: absolute;
 	bottom: 0;
 
@@ -11,7 +11,7 @@
 		text-align: end;
 		font-size: 10px;
 		margin-right: 20px;
-		color: @footer-font-color;
+		color: $footer-font-color;
 	}
 }
 

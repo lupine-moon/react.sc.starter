@@ -3,7 +3,7 @@ import * as React from 'react';
 
 import Loader from '@components/ui/Loader';
 
-import './style.less';
+import './style.scss';
 
 export interface PageProps {
 	children?: any;

@@ -13,7 +13,7 @@ import { FlagStore } from '@store/FlagStore';
 
 import { ReactComponent as Hamburger } from '@assets/images/svg/hamburger.svg';
 
-import './style.less';
+import './style.scss';
 
 export interface HeaderProps {
 	children?: any;

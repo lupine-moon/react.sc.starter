@@ -1,7 +1,7 @@
 import classnames from 'classnames';
 import * as React from 'react';
 
-import './style.less';
+import './style.scss';
 
 export interface NavProps {
 	children?: any;

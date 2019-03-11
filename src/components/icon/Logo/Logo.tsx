@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import logoImage from '@assets/images/svg/logo.svg';
 
-import './style.less';
+import './style.scss';
 
 export interface LogoProps {
 	width?: string;

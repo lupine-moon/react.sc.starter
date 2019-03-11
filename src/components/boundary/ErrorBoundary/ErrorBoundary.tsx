@@ -7,7 +7,7 @@ import Logo from '@components/icon/Logo';
 import { RouteNames } from '@enums/RouteNames';
 import { RouterStore } from '@store/RouterStore';
 
-import './style.less';
+import './style.scss';
 
 export interface ErrorBoundaryProps {
 	children?: any;
@@ -22,7 +22,7 @@ interface State {
 @observer
 class ErrorBoundary extends React.Component<ErrorBoundaryProps, State> {
 	public state: State = {
-		hasError: false
+		hasError: true
 	};
 
 	constructor(props: ErrorBoundaryProps, context: any) {

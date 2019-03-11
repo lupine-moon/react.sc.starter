@@ -5,7 +5,7 @@ import Nav from '@components/structural/Nav';
 
 import { RouteNames } from '@enums/RouteNames';
 
-import './style.less';
+import './style.scss';
 
 export interface SiteNavProps {
 	isOpen?: boolean;

@@ -1,9 +1,9 @@
-@import '~@themes/app-theme.less';
+@import '@styles/colors.scss';
 
 .Error__Main {
 	display: flex;
 	flex: 1;
-	background-color: @error-background;
+	background-color: $error-background;
 	height: calc(100vh - 0px);
 
 	.Error__Card {
@@ -15,18 +15,18 @@
 		width: 100%;
 		text-align: center;
 		padding: 0px;
-		background-color: @color-white;
+		background-color: $color-white;
 		margin: 40px;
 	}
 
 	.Error__Message {
-		color: @secondary-color;
+		color: $secondary-color;
 		font-size: 20px;
 		font-weight: 700;
 	}
 
 	.Error__Detail {
-		color: @text-color;
+		color: $color-font-medium;
 		font-size: 16px;
 	}
 
@@ -39,7 +39,7 @@
 
 	.CTA__Button {
 		cursor: pointer;
-		background: @primary-color;
+		background: $primary-color;
 		border-width: 0px;
 		min-width: 120px;
 		margin-right: 20px;
@@ -47,20 +47,20 @@
 		border-radius: 8px;
 		padding-left: 30px;
 		padding-right: 30px;
-		color: @color-white;
+		color: $color-white;
 		font-size: 14px;
 		font-weight: normal;
 	}
 
 	.CTA__Button:hover {
-		background: @primary-5;
+		background: $primary-dark-color;
 	}
 }
 
 @media screen and (max-width: 840px) {
 	.Error__Main {
 		.Error__Card {
-			background-color: @color-transparent;
+			background-color: $color-transparent;
 		}
 
 		.Error__Message {
