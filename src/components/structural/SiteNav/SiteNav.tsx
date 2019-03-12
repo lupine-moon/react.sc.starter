@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import RouterLink from '@components/functional/RouterLink';
 import Nav from '@components/structural/Nav';
+import RouterLink from '@components/structural/RouterLink';
 
 import { RouteNames } from '@enums/RouteNames';
 

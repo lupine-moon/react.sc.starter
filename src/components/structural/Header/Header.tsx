@@ -1,8 +1,8 @@
 import { inject, observer } from 'mobx-react';
 import * as React from 'react';
 
-import RouterLink from '@components/functional/RouterLink';
 import Logo from '@components/icon/Logo';
+import RouterLink from '@components/structural/RouterLink';
 import SiteNav from '@components/structural/SiteNav';
 
 import { RouteNames } from '@enums/RouteNames';

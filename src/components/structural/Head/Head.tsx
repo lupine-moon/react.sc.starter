@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import HtmlHead from '@components/functional/HtmlHead';
+import HtmlHead from '@bit/lupine-moon.interaction.html-head';
 
 export default ({ children }: any) => (
 	<HtmlHead>
