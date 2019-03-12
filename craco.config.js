@@ -4,7 +4,8 @@ const path = require('path');
 module.exports = {
 	babel: {
 		plugins: [
-			['@babel/plugin-proposal-decorators', { legacy: true }] // MobX
+			['@babel/plugin-proposal-decorators', { legacy: true }], // MobX
+			['babel-plugin-styled-components']
 		]
 	},
 	jest: {
