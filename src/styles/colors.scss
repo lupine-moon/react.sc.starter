@@ -39,3 +39,7 @@ $color-hamburger-hover: rgba(255, 255, 255, 0.75);
 // Footer
 $footer-background: $color-transparent;
 $footer-font-color: #d6d6d6;
+
+:export {
+	primaryColor: $primary-color;
+}

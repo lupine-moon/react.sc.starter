@@ -1,11 +1,11 @@
+import Button from '@bit/lupine-moon.interaction.button';
 import { inject, observer } from 'mobx-react';
 import * as React from 'react';
-
-import Button from '@bit/lupine-moon.interaction.button';
 
 import Logo from '@components/icon/Logo';
 import { RouteNames } from '@enums/RouteNames';
 import { RouterStore } from '@store/RouterStore';
+import * as colors from '@styles/colors.scss';
 
 import './style.scss';
 
@@ -22,7 +22,7 @@ interface State {
 @observer
 class ErrorBoundary extends React.Component<ErrorBoundaryProps, State> {
 	public state: State = {
-		hasError: true
+		hasError: false
 	};
 
 	constructor(props: ErrorBoundaryProps, context: any) {
@@ -59,7 +59,13 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, State> {
 							We have logged the issue and have already started working on a solution!
 						</h2>
 						<br />
-						<Button className="CTA__Button" onClick={this.onHomeClick}>
+						<Button
+							className="CTA__Button"
+							borderRadius="3px"
+							color={colors.primaryColor}
+							primary={true}
+							onClick={this.onHomeClick}
+						>
 							Take me home
 						</Button>
 					</section>
