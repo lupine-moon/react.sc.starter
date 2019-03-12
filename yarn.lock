@@ -755,10 +755,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@bit/lupine-moon.interaction.button@~1.0.6":
-  version "1.0.6"
-  resolved "https://node.bitsrc.io/lupine-moon.interaction.button/-/lupine-moon.interaction.button-1.0.6.tgz#be01fb1db86580c020d892a7e670b27743edf915"
-  integrity sha1-vgH7HbhlgMAg2JKn5nCyd0Pt+RU=
+"@bit/lupine-moon.interaction.button@~1.0.7":
+  version "1.0.7"
+  resolved "https://node.bitsrc.io/lupine-moon.interaction.button/-/lupine-moon.interaction.button-1.0.7.tgz#6744f58947246225afbf8a43935e30cf5a90d9ab"
+  integrity sha1-Z0T1iUckYiWvv4pDk14wz1qQ2as=
   dependencies:
     enzyme "~3.9.0"
     enzyme-adapter-react-16 "~1.10.0"

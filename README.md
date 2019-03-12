@@ -2,6 +2,8 @@
 
 Starter project for React built using Typescript, MobX, Styled Components, and Webpack. We leverage [Create React App Configuration Override](https://github.com/sharegate/craco) in order to provide custom build functionality.
 
+We also use [btcsrc.io](https://bitsrc.io/lupine-moon) to create shareable / reusable components.
+
 ## Getting Started
 
 To get started clone the repository and run:

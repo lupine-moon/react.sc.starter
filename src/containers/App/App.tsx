@@ -7,8 +7,12 @@ class App extends React.Component {
 	public render() {
 		return (
 			<section>
+				<Button borderRadius="3px" color={colors.primaryColor}>
+					Normal Button
+				</Button>
 				<Button borderRadius="3px" color={colors.primaryColor} primary={true}>
-					Button
+					{' '}
+					Primary Button
 				</Button>
 			</section>
 		);
